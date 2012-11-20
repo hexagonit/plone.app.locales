@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plone-fi\n"
 "POT-Creation-Date: 2012-10-19 19:40+0000\n"
-"PO-Revision-Date: 2011-07-28 21:26+0200\n"
+"PO-Revision-Date: 2012-11-20 13:19+0200\n"
 "Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
 "Language-Team: Finnish <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -150,18 +150,6 @@ msgstr "Käyttäjät voivat luoda sisältöä, joka on heti muiden nähtävissä
 #: plone.locking/plone/locking/browser/locking.py:131
 msgid "1 minute"
 msgstr "1 minuutti"
-
-#: CMFPlone/skins/plone_deprecated/search_form.pt:411
-msgid "30"
-msgstr "30"
-
-#: CMFPlone/skins/plone_deprecated/search_form.pt:414
-msgid "60"
-msgstr "60"
-
-#: CMFPlone/skins/plone_deprecated/search_form.pt:417
-msgid "90"
-msgstr "90"
 
 #: ./plone.app.registry/plone/app/registry/configure.zcml
 msgid "A 'Mozilla about:config' style configuration registry"
@@ -358,11 +346,11 @@ msgstr "AM/PM"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Absolute path"
-msgstr ""
+msgstr "Absoluuttinen polku"
 
 #: plone/app/theming/interfaces.py:40
 msgid "Absolute prefix"
-msgstr ""
+msgstr "Absoluuttinen prefiksi"
 
 #. Default: "Accessibility"
 #: CMFPlone/profiles/default/actions.xml
@@ -533,15 +521,15 @@ msgstr "Laajennetun hakulomakkeen asetukset"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "After date"
-msgstr ""
+msgstr "Päivämäärän jälkeen"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "After the current day"
-msgstr ""
+msgstr "Kuluvan päivän jälkeen"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "After today"
-msgstr ""
+msgstr "Kuluvan päivän jälkeen"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:52
 msgid "All Content"
@@ -612,7 +600,7 @@ msgstr "Välimuistin siivoamisväli sekunteina."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "An item's description"
-msgstr ""
+msgstr "Kohteen kuvaus"
 
 #. Default: "An item's title transformed for sorting"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -662,19 +650,19 @@ msgstr "Asetukset"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Before date"
-msgstr ""
+msgstr "Ennen päivämäärää"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Before the current day"
-msgstr ""
+msgstr "Ennen kuluvaa päivää"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Before today"
-msgstr ""
+msgstr "Ennen kuluvaa päivää"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Between dates"
-msgstr ""
+msgstr "Aikavälillä"
 
 #. Default: "Boolean (True/False)"
 #: criterion description of criterion ATBooleanCriterion
@@ -777,7 +765,7 @@ msgstr "Muutokset on tehty."
 
 #: plone/app/theming/browser/controlpanel.py:179
 msgid "Changes saved"
-msgstr ""
+msgstr "Muutokset tallennettu"
 
 #: Archetypes/skins/archetypes/content_edit_impl.py:29
 #: Archetypes/skins/archetypes/validate_base.vpy:23
@@ -842,7 +830,7 @@ msgstr "Kokoelma"
 
 #: CMFPlone/profiles/default/types/Topic.xml
 msgid "Collection (old-style)"
-msgstr ""
+msgstr "Kokoelma (vanha)"
 
 #: plone.app.collection/plone/app/collection/profiles/default/types/Collection.xml
 msgid "Collection of searchable information"
@@ -854,7 +842,7 @@ msgstr "Kokoelmaportlet"
 
 #: CMFPlone/profiles/default/controlpanel.xml
 msgid "Collections (old style)"
-msgstr ""
+msgstr "Kokoelmat (vanha)"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:517
 msgid "Comment"
@@ -931,7 +919,7 @@ msgstr "Ota yhteyttä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Contains"
-msgstr ""
+msgstr "Sisältää"
 
 #. Default: "Content Rules"
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -1024,7 +1012,7 @@ msgstr "Luontipäivä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Creation date"
-msgstr ""
+msgstr "Luontipäivämäärä"
 
 #. Default: "Creator"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -1056,7 +1044,7 @@ msgstr "Tämänhetkinen aktiivinen konfiguraatio"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Current logged in user"
-msgstr ""
+msgstr "Sisäänkirjautunut käyttäjä"
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:57
 msgid "Custom tags"
@@ -1099,7 +1087,7 @@ msgstr "Aikaväli"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Dates"
-msgstr ""
+msgstr "Päivämäärät"
 
 #: CMFPlone/skins/plone_templates/calendar_macros.pt:109
 msgid "Day"
@@ -1129,7 +1117,7 @@ msgstr "Oletusteema"
 
 #: plone.app.collection/plone/app/collection/collection.py:31
 msgid "Define the search terms for the items you want to list by choosing what to match on. The list of results will be dynamically updated."
-msgstr ""
+msgstr "Valitse hakuehdot, joilla haluat kohteet listattavan. Esimerkki hakutuloksista päivittyy automaattisesti."
 
 #: plone.app.controlpanel/plone/app/controlpanel/search.py:42
 msgid "Define the types that should be searched and be available in the user facing part of the site. Note that if new content types are installed, they will be enabled by default unless explicitly turned off here or by the relevant installer."
@@ -1152,7 +1140,7 @@ msgstr "Poista kohde"
 
 #: plone/app/theming/interfaces.py:171
 msgid "Dependencies"
-msgstr ""
+msgstr "Riippuvuudet"
 
 #: CMFPlone/profiles/default/portal_atct.xml
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
@@ -1213,11 +1201,11 @@ msgstr "Näytettävät sisältötyypit"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:46
 msgid "Do not send the email to the user that did the action."
-msgstr ""
+msgstr "Älä lähetä sähköpostia käyttäjälle, joka teki muutoksen."
 
 #: plone/app/theming/interfaces.py:52
 msgid "Doctype"
-msgstr ""
+msgstr "Doctype"
 
 #: CMFPlone/skins/plone_form_scripts/document_edit.cpy:42
 msgid "Document changes saved."
@@ -1236,11 +1224,11 @@ msgstr "Lataa"
 
 #: CMFPlone/skins/plone_content/image_view.pt:52
 msgid "Download image"
-msgstr ""
+msgstr "Lataa kuva"
 
 #: plone.app.iterate/plone/app/iterate/profiles/test/workflows/workingcopy_workflow/definition.xml
 msgid "Draft (copy)"
-msgstr ""
+msgstr "Drafti (kopio)"
 
 #: CMFPlone/browser/templates/plone-upgrade.pt:153
 msgid "Dry run mode"
@@ -1403,11 +1391,11 @@ msgstr "Voimassaoloaika"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Effective date"
-msgstr ""
+msgstr "Julkaisupäivämäärä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Effective range"
-msgstr ""
+msgstr "Julkaisupäivämäärä aikavälillä"
 
 #: CMFPlone/skins/plone_login/login_form_validate.vpy:51
 msgid "Email address not known."
@@ -1474,7 +1462,7 @@ msgstr "Syötteet palautettu."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Equals"
-msgstr ""
+msgstr "sama kuin"
 
 #. Default: "Error"
 #: CMFPlone/skins/plone_content/author.cpt:46
@@ -1504,11 +1492,11 @@ msgstr "Muutokset tapahtumaan on tallennettu."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Event end date"
-msgstr ""
+msgstr "Tapahtuman loppumispäivämäärä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Event start date"
-msgstr ""
+msgstr "Tapahtuman alkamispäivämäärä"
 
 #: CMFPlone/profiles/default/portlets.xml
 #: plone.app.event/plone/app/event/portlets/events.py:45
@@ -1527,7 +1515,7 @@ msgstr "Esimerkki sisältöä"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:45
 msgid "Exclude actor from recipients"
-msgstr ""
+msgstr "Jätä muutokset tekijä pois vastaanottajista"
 
 #. Default: "Exclude from navigation"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -1545,7 +1533,7 @@ msgstr "Vanhenemispäivä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Expiration date"
-msgstr ""
+msgstr "Vanhenemispäivämäärä"
 
 #: plone.app.controlpanel/plone/app/controlpanel/site.py:36
 msgid "Expose Dublin Core metadata"
@@ -1650,7 +1638,7 @@ msgstr "Sisältö"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:62
 msgid "Folder URL"
-msgstr ""
+msgstr "Kansion URL"
 
 #. Default: "Folder-like"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -1689,7 +1677,7 @@ msgstr "Palaa takaisin sivustolle."
 
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:34
 msgid "Go to parent folder"
-msgstr ""
+msgstr "Yksi taso ylöspäin"
 
 #: CMFPlone/browser/templates/plone-overview.pt:119
 msgid "Go to the ZMI"
@@ -1884,7 +1872,7 @@ msgstr "Kuvien skaalaus"
 
 #: plone/app/theming/browser/controlpanel.pt:378
 msgid "Import"
-msgstr ""
+msgstr "Tuo teema"
 
 #: plone.app.users/plone/app/users/browser/personalpreferences.py:354
 msgid "Incorrect value for current password"
@@ -1942,7 +1930,7 @@ msgstr "Intranet/Extranet-työnkulku"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Is"
-msgstr ""
+msgstr "on"
 
 #. Default: "Is this item visible in the site navigation"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -1951,11 +1939,11 @@ msgstr "Onko tämä kohde näkyvissä sivuston sisältöpuussa"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Is within"
-msgstr ""
+msgstr "sisältyy"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Is within (relative)"
-msgstr ""
+msgstr "sisältyy (suhteellinen)"
 
 #. Default: "Item Type"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -2028,7 +2016,7 @@ msgstr "Kieliriippumaton (sivuston oletusarvo)"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Larger than"
-msgstr ""
+msgstr "suurempi kuin"
 
 #: CMFPlone/browser/templates/plone-upgrade.pt:97
 msgid "Latest available configuration"
@@ -2036,7 +2024,7 @@ msgstr "Viimeisin saatavilla oleva konfiguraatio"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Less than"
-msgstr ""
+msgstr "pienempi kuin"
 
 #: plone.app.controlpanel/plone/app/controlpanel/security.py:35
 msgid "Let users select their own passwords"
@@ -2111,7 +2099,7 @@ msgstr "Suhteellinen sijainti nykyisestä kansiosta"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Location in the site structure"
-msgstr ""
+msgstr "Sijainti sivustolla"
 
 #. Default: "Locked"
 #: plone.app.iterate/plone/app/iterate/browser/info_checkout.pt:5
@@ -2327,7 +2315,7 @@ msgstr "Viestityyppi"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Metadata"
-msgstr ""
+msgstr "Metatiedot"
 
 #: CMFPlone/skins/plone_templates/calendar_macros.pt:174
 msgid "Minute"
@@ -2344,7 +2332,7 @@ msgstr "Muokkauspäivä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Modification date"
-msgstr ""
+msgstr "Muokkauspäivämäärä"
 
 #: plone.app.portlets/plone/app/portlets/browser/formhelper.py:122
 #: plone.app.portlets/plone/app/portlets/browser/z3cformhelper.py:64
@@ -2397,7 +2385,7 @@ msgstr "Plonen monikielisyyden tuki "
 
 #: CMFPlone/RegistrationTool.py:75
 msgid "Multiple users found with the same login name."
-msgstr ""
+msgstr "Löydettiin useita käyttäjiä, joilla on sama käyttäjätunnus."
 
 #. Default: "My Folder"
 #: plone.app.controlpanel/plone/app/controlpanel/security.py:148
@@ -2410,7 +2398,7 @@ msgstr "Omat asetukset"
 
 #: plone/app/theming/interfaces.py:22
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:41
 msgid "Nasty tags"
@@ -2606,7 +2594,7 @@ msgstr "Sivu"
 
 #: plone/app/theming/interfaces.py:45
 msgid "Parameter expressions"
-msgstr ""
+msgstr "Parametri lausekkeet"
 
 #: plone.app.iterate/plone/app/iterate/containers.py:64
 msgid "Parent folder"
@@ -2665,7 +2653,7 @@ msgstr "Polun tunniste"
 
 #: plone/app/theming/interfaces.py:26
 msgid "Path to rules"
-msgstr ""
+msgstr "Polku sääntötiedostoon"
 
 #. Default: "Pending"
 #: workflow state defined in plone_workflow - id pending
@@ -2742,7 +2730,7 @@ msgstr "Syötä oikein muotoiltu päivämäärä ja aika (mm.dd.yyyy hh:mm)."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Please enter the number in days."
-msgstr ""
+msgstr "Syötä arvo päivien lukumäärälle."
 
 #: CMFPlone/skins/plone_login/login_form_validate.vpy:41
 msgid "Please enter your email address."
@@ -2799,7 +2787,7 @@ msgstr "Anna sähköpostiosoite."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Please use YYYY/MM/DD."
-msgstr ""
+msgstr "Käytä muotoa VVVV/KK/PP."
 
 #: ./plonetheme.classic/plonetheme/classic/configure.zcml
 msgid "Plone Classic Theme"
@@ -2992,7 +2980,7 @@ msgstr "Asettaa kohteesi tarkastusjonoon, jolloin se voidaan julkaista sivustoll
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Querying this is undefined"
-msgstr ""
+msgstr "Kohteen hakeminen ei ole tuettu."
 
 #: plone.app.controlpanel/plone/app/controlpanel/ram.py:77
 msgid "RAM Cache Settings"
@@ -3069,7 +3057,7 @@ msgstr "Suhteellinen päiväys"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Relative path"
-msgstr ""
+msgstr "Suhteellinen polku"
 
 #: CMFPlone/skins/plone_deprecated/search_form.pt:384
 msgid "Relevance"
@@ -3153,7 +3141,7 @@ msgstr "Tarkastusluettelo"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Review state"
-msgstr ""
+msgstr "Julkaisutila"
 
 msgid "Reviewer"
 msgstr "Tarkastaja"
@@ -3268,11 +3256,11 @@ msgstr "Sivuston hakuasetukset"
 
 #: plone.app.collection/plone/app/collection/collection.py:30
 msgid "Search terms"
-msgstr ""
+msgstr "Hakuehdot"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Searchable text"
-msgstr ""
+msgstr "Haettava teksti"
 
 #. Default: "Security"
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -3397,7 +3385,7 @@ msgstr "Tunniste"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Short name (id)"
-msgstr ""
+msgstr "Tunniste (id)"
 
 #: CMFPlone/browser/templates/plone-addsite.pt:95
 msgid "Should the default example content be added to the site?"
@@ -3578,10 +3566,6 @@ msgstr "Kansio tilapäiselle tiedolle."
 msgid "Specify all allowed maximum image dimensions, one per line. The required format is <name> <width>:<height>."
 msgstr "Määrittele kaikki sallitut kuvasuhteet, yksi määritys riviä kohden. Vaadittu muoto on <nimi> <leveys>:<korkeus>."
 
-#: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:33
-msgid "Specify the maximum number of items to show in the portlet."
-msgstr "Määritä portletissa näytettävien kohteiden enimmäismäärä."
-
 #: plone.portlet.collection/plone/portlet/collection/collection.py:44
 msgid "Specify the maximum number of items to show in the portlet. Leave this blank to show all items."
 msgstr "Määrittele suurin portletissa näytettävien kohteiden määrä. Jätä tämä tyhjäksi näyttääksesi kaikki kohteet."
@@ -3720,7 +3704,7 @@ msgstr "Taulukkonäkymä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Tag"
-msgstr ""
+msgstr "Tagi"
 
 #: CMFPlone/profiles/default/portal_atct.xml
 msgid "Tags"
@@ -3732,7 +3716,7 @@ msgstr "Tageja käytetään sisällön ad-hoc järjestelyyn."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Tags are used for organization of content"
-msgstr ""
+msgstr "Tageja käytetään sisällön organisoimiseen."
 
 #: plone.portlet.collection/plone/portlet/collection/collection.py:35
 msgid "Target collection"
@@ -3813,11 +3797,11 @@ msgstr "Sisältötyypit jotka näytetään sisältöpuussa ja sivukartassa."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The current day"
-msgstr ""
+msgstr "Kuluva päivä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The date an item was created"
-msgstr ""
+msgstr "Päivämäärä, milloin kohde on luotu"
 
 #: CMFPlone/RegistrationTool.py:270
 msgid "The email address did not validate."
@@ -3869,11 +3853,11 @@ msgstr "Sivuston tunniste. Tunnisteesta tulee osa sivuston verkko-osoitetta.<br 
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The item's title, transformed for sorting"
-msgstr ""
+msgstr "Kohteen otsikko muunnettuna järjestettävään muotoon"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The location of an item"
-msgstr ""
+msgstr "Kohteen sijainti"
 
 #. Default: "The location of an item in the site (path)"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -3921,7 +3905,7 @@ msgstr "Sisällön järjestys kansiossaan"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The person that created an item"
-msgstr ""
+msgstr "Käyttäjä, joka loi kohteen"
 
 #. Default: "The roles and users with View permission on an item"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -3990,11 +3974,11 @@ msgstr "Sisällön luontiajankohta"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The time and date an item was expired"
-msgstr ""
+msgstr "Ajanhetki, milloin kohde vanheni"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The time and date an item was first published"
-msgstr ""
+msgstr "Ajanhetki, milloin kohde julkaistiin ensimmäisen kerran"
 
 #. Default: "The time and date an item was last modified"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -4013,7 +3997,7 @@ msgstr "Linkin verkko-osoite"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "The user viewing the querystring results"
-msgstr ""
+msgstr "Käyttäjä, joka näkee haun tuloksen"
 
 #: CMFPlone/RegistrationTool.py:77
 msgid "The username you entered could not be found."
@@ -4060,7 +4044,7 @@ msgstr "Tälle lisäosalle ei ole määritelty päivitysaskeleita. Katso tietoja
 
 #: plone/app/theming/browser/controlpanel.py:181
 msgid "There were errors"
-msgstr ""
+msgstr "Tapahtui virheitä"
 
 #: CMFPlone/skins/plone_prefs/prefs_installed_product_overview.pt:37
 msgid "There were errors during install, check transcript."
@@ -4117,12 +4101,6 @@ msgid "This is the Add-on configuration section, you can activate and deactivate
 msgstr "Tämä on lisäosien hallintasivu. Alla olevien listojen avulla voit joko ottaa käyttöön tai poistaa käytöstä haluamiasi lisäosia."
 
 #: plone.portlet.collection/plone/portlet/collection/collection.py:199
-msgid "This portlet display a listing of items from a Collection."
-msgstr "Portlet näyttää listauksen kokoelman kohteista."
-
-#: plone.app.portlets/plone/app/portlets/portlets/navigation.py:220
-msgid "This portlet display a navigation tree."
-msgstr "Tämä portlet näyttää navigointipuun."
 msgid "This portlet displays a listing of items from a Collection."
 msgstr "Sovelma näyttää listauksen kokoelman kohteista."
 
@@ -4184,7 +4162,7 @@ msgstr "Syötteen uudelleenlatausväli minuutteina."
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Tip: you can use * to autocomplete."
-msgstr ""
+msgstr "Vihje: Voit käyttää * -merkkiä täydentämään syötettä."
 
 #: CMFPlone/profiles/default/portal_atct.xml
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:211
@@ -4207,7 +4185,7 @@ msgstr "Jotta uudet lisäosat näkyisivät alla olevassa listassa, ne täytyy li
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Today"
-msgstr ""
+msgstr "Tänään"
 
 #. Default: "Toggle full screen mode"
 #: CMFPlone/profiles/default/actions.xml
@@ -4245,7 +4223,7 @@ msgstr "Liipaisintapahtuma"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Type"
-msgstr ""
+msgstr "Tyyppi"
 
 #. Default: "Types"
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -4339,7 +4317,7 @@ msgstr "${product} päivitetty"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Use '../' to navigate to parent objects."
-msgstr ""
+msgstr "Käytä '../' navigoidaksesi ylemmäksi rakenteessa."
 
 #: plone.app.controlpanel/plone/app/controlpanel/security.py:60
 msgid "Use email address as login name"
@@ -4452,7 +4430,7 @@ msgstr "Näkymä muutettu."
 
 #: CMFPlone/skins/plone_content/image_view.pt:42
 msgid "View image"
-msgstr ""
+msgstr "Näytä kuva"
 
 #. Default: "View portlet management screen"
 #: plone.app.portlets/plone/app/portlets/browser/templates/column.pt:9
@@ -4552,11 +4530,11 @@ msgstr "Wiki-toiminnot"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Within last"
-msgstr ""
+msgstr "Menneisyydessä"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Within next"
-msgstr ""
+msgstr "Tulevaisuudessa"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:181
 msgid "Workflow"
@@ -4714,7 +4692,7 @@ msgstr "Zope-palvelimen ja sivuston ylläpitotoiminnot."
 #. Default: "Absolute URL prefix"
 #: plone/app/theming/interfaces.py:88
 msgid "absolute_url_prefix"
-msgstr ""
+msgstr "Absoluuttinen URL prefiksi"
 
 #. Default: "<code>0</code> — Access Key details"
 #: CMFPlone/skins/plone_templates/accessibility-info.pt:74
@@ -4782,7 +4760,7 @@ msgstr "aakkosittain"
 
 #: archetypes.querywidget/archetypes/querywidget/templates/date_range_widget.pt:22
 msgid "and"
-msgstr ""
+msgstr "ja"
 
 #: plone.app.controlpanel/plone/app/controlpanel/search.py:22
 msgid "anonymous users"
@@ -5046,12 +5024,12 @@ msgstr "Jatka päivitystä"
 #. Default: "Convert relative URLs in the theme file to absolute paths using this prefix."
 #: plone/app/theming/interfaces.py:89
 msgid "convert_relative_url"
-msgstr ""
+msgstr "Muuta suhteelliset URLit teemassa absoluuttisiksi käyttäen tätä prefiksiä."
 
 #. Default: "Current theme"
 #: plone/app/theming/interfaces.py:73
 msgid "current_theme"
-msgstr ""
+msgstr "Nykyinen teema"
 
 #. Default: "The name of the current theme, i.e. the one applied most recently."
 #: plone/app/theming/interfaces.py:74
@@ -5838,7 +5816,7 @@ msgstr "Missä"
 #. Default: "A password reset e-mail could not be sent to the following users: ${user_ids}"
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups.py:382
 msgid "failed_passwords_msg"
-msgstr ""
+msgstr "Salasanan uudelleenasetusviestiä ei pystytty lähettämään seuraaville käyttäjille: ${user_ids}"
 
 #: plone.app.querystring/plone/app/querystring/results.pt:63
 #: plone.app.search/plone/app/search/search.pt:332
@@ -6979,7 +6957,7 @@ msgid "help_smtp_pass"
 msgstr "ESMTP-käyttäjätunnuksen salasana."
 
 #. Default: "The port of your local SMTP (outgoing e-mail) server. Usually '587' or '25'."
-#: plone.app.controlpanel/plone/app/controlpanel/mail.py:50
+#: plone.app.controlpanel/plone/app/controlpanel/mail.py:51
 msgid "help_smtp_port"
 msgstr "Käyttämäsi lähtevän sähköpostin SMTP-palvelimen portti. Yleensä \"25\"."
 
@@ -9863,7 +9841,7 @@ msgstr "hylkää"
 
 #: plone.app.search/plone/app/search/browser.py:120
 msgid "relevance"
-msgstr ""
+msgstr "asiaankuuluvuus"
 
 #. Default: "Please log out or exit your browser when you're done."
 #: CMFPlone/skins/plone_login/failsafe_login_form.cpt:168
@@ -9977,7 +9955,7 @@ msgstr "Pieni"
 #. Default: "Sort by"
 #: plone.app.search/plone/app/search/search.pt:239
 msgid "sort_by"
-msgstr "Lajittele perusteella"
+msgstr "Järjestelykriteeri"
 
 #. Default: "Failed to create your account: we were unable to send instructions for setting a password to your email address: ${address}"
 #: plone.app.users/plone/app/users/browser/register.py:445

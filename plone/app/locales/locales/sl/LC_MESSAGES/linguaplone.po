@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: linguaplone-sl\n"
-"POT-Creation-Date: 2011-09-19 15:40+0000\n"
+"POT-Creation-Date: 2011-05-15 20:32+0000\n"
 "PO-Revision-Date: 2012-07-31 21:15+0200\n"
 "Last-Translator: Matjaž Jeran (matematik) <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -139,7 +139,7 @@ msgid "label_link_translation"
 msgstr "Povezava na prevod"
 
 #. Default: "Manage translations..."
-#: LinguaPlone/browser/menu.py:65
+#: LinguaPlone/browser/menu.py:63
 msgid "label_manage_translations"
 msgstr "Upravljaj s prevodi..."
 
@@ -154,7 +154,7 @@ msgid "label_no_translation_selected"
 msgstr "Ni izbirane vsebine za prevod. Kliknite na gumb Brskaj za izbiro."
 
 #. Default: "Translate into..."
-#: LinguaPlone/browser/menu.py:83
+#: LinguaPlone/browser/menu.py:81
 msgid "label_translate_menu"
 msgstr "Prevedi v ..."
 
@@ -199,7 +199,7 @@ msgid "title_translate_into"
 msgstr "Prevedi v ${lang_name}"
 
 #. Default: "Manage translations for your content."
-#: LinguaPlone/browser/menu.py:84
+#: LinguaPlone/browser/menu.py:82
 msgid "title_translate_menu"
 msgstr "Upravljaj prevode za vašo vsebino."
 

@@ -1,6 +1,6 @@
 # Translation of plone.pot to Italian
 # Giancarlo & Lele Gaifas, 2002-2009
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
@@ -7416,7 +7416,9 @@ msgstr "Scegli l'elemento da usare come vista predefinita…"
 #. Default: "Change content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:447
 msgid "label_change_item"
-msgstr "Modifica la vista\n di default..."
+msgstr ""
+"Modifica la vista\n"
+" di default..."
 
 #. Default: "Change user properties."
 #: CMFPlone/skins/plone_deprecated/prefs_user_details.cpt:61

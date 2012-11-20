@@ -1,6 +1,6 @@
 # Translation of plonelocales.po to Italian
 # Lele Gaifax
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"

@@ -67,3 +67,4 @@ msgstr "Sklici dodani k"
 #: archetypes/referencebrowserwidget/browser/popup.pt:37
 msgid "referencebrowser_text_removed_reference"
 msgstr "Odstranjeno"
+
